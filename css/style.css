@@ -6,14 +6,59 @@
   margin: 0;
   text-decoration: none;  
   text-transform: uppercase;
+  color: #000000;
 }
 #sobre {
   background-color: #6e7686;
-  height: 100vh;
+  text-align: center;
+  height: 100vh;  
+}
+
+#sobre figcaption {
+  color: #ffffff;
+}
+
+#sobre section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+#sobre section figure img{
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#sobre section article {  
+  margin-top: 5%;
+  height: 40%;
+}
+
+#sobre section article a {
+  width: 30%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+#sobre section article a img {
+  width: 40%;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 #projetos {  
   background-color: #ffffff;
+}
+
+#projetos div p a {
+  color: blue;
+  font-size: 5ch;
 }
 
 #contatos {
@@ -110,7 +155,7 @@ header div button {
   display: flex;
   justify-content: space-around;
   margin-top: 3ch;
-  border: 1px dashed red;
+  /*border: 1px dashed red;*/
 }
 
 #projetos div article picture img {
@@ -181,6 +226,10 @@ header div button {
     background-color: #333;
     width: 100%;
     position: relative;
+  }
+  
+  #sobre section {
+    display: block;    
   }
   
   #projetos,
