@@ -1,177 +1,338 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Jeferson</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/style.css">
+    <title>Jeferson Portfolio/Resume</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio/Resume do Jeferson, Web Developer">
+    <meta name="author" content="Jeferson Ferreira da Silva">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
 </head>
 
 <body>
+    <!-- ******HEADER****** -->
+    <header class="header">
+        <div class="container clearfix">
+            <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="James Lee" />
+            <div class="profile-content float-left">
+                <h1 class="name">Jeferson Ferreira</h1>
+                <h2 class="desc">Web Developer</h2>
+                <ul class="social list-inline">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/jeferson-ferreira-4a036b143"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/jeferson0993"><i class="fab fa-github-alt"></i></a></li>
+                    <li class="list-inline-item"><a href="https://stackexchange.com/users/16185650/jeferson-ferreira"><i class="fab fa-stack-overflow"></i></a></li>
+                    <li class="list-inline-item last-item"><a href="https://codepen.io/jeferson0993"><i class="fab fa-codepen"></i></a></li>
+                </ul>
+            </div>
+            <!--//profile-->
+            <a class="btn btn-cta-primary float-right" href="#" target="_blank"><i class="fas fa-paper-plane"></i> Entre em contato</a>
+        </div>
+        <!--//container-->
+    </header>
+    <!--//header-->
 
-  <header id="inicio">
-    <nav class='cf'>
-      <ul class='cf'>
-        <li>
-          <a href='#inicio'>INICIO</a>
-        </li>
-        <li>
-          <a href='#sobre'>SOBRE</a>
-        </li>
-        <li>
-          <a href='#projetos'>PROJETOS</a>
-        </li>
-        <li>
-          <a href='#contatos'>CONTATO</a>
-        </li>
-        <li>
-          <a href='#footer'>REDES SOCIAIS</a>
-        </li>
-      </ul>
-      <a href='#' id='openup'>MENU</a>
-    </nav>
-    <div>
-      <h1>Meus Projetos</h1>
-      <p>
-        <a href="#">por Jeferson Ferreira</a>
-      </p>
-      <a href="#projetos">
-        <button>Projetos</button>
-      </a>
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">Sobre Mim</h2>
+                        <div class="content">
+                            <p>Estudante Universitário, sistemas para internet, usuário de linux e autodidata.</p>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
+
+                <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Projeto em destaque</h2>
+                        <div class="content">
+
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="https://www.simemap.com" target="_blank">Simemap</a></h3>
+                                <p class="summary">Sistema de monitoramento eletrônico: medição e automação de processos</p>
+                                <div class="featured-image has-ribbon">
+                                    <a href="#" target="_blank">
+                                        <img class="img-fluid project-image" src="assets/images/projects/project-featured.jpg" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">Confira!</div>
+                                    </div>
+                                </div>
+
+                                <div class="desc text-left">
+                                    <p>Com o Simemap é possível acompanhar de perto e com qualidade o consumo de energia elétrica de qualquer equipamento de ama casa, seja apenas alguns circuitos (seu quarto ou cozinha por exemplo) ou sua casa como um todo.
+                                        É possível também, com poucos ajustes, medir outras coisas, como o consumo de água e a temperatura ambiente. As ferramentas IoT (Internet of Things ou Internet das Coisas) utilizadas, também vão permitir acionar
+                                        remotamente lâmpadas, máquinas, aparelhos de ar condicionado entre outros. Tudo pelo seu PC ou pelo seu celular.</p>
+                                </div>
+                                <!--//desc-->
+                                <a class="btn btn-cta-secondary" href="http://www.simemap.com" target="_blank"><i class="fas fa-globe"></i> Site do projeto</a>
+                            </div>
+                            <!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="#" target="_blank">
+                                    <img class="img-fluid project-image" src="assets/images/projects/project-1.jpeg" alt="nome do projeto" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="#" target="_blank">Sistema de cadastro de consultas</a></h3>
+                                    <p class="mb-2">Esta é uma aplicação Java Web desenvolvida na arquitetura MVC e é composta das funções Logar, Armazenar informações do usuário em cookies, Listar Consultas marcadas, Criar Consultas, Editar Consultas , Excluir Consultas.
+                                        O projeto tem o objetivo de demostrar habilidadedes nas tecnologias, JSP, Servlets, JDBC, HTML 5, CSS 3, javascript. Os padrões de projeto utilizados na aplicação são: MVC, Maven e DAO; É um sistema em nivel iniciante
+                                        no desenvolvimento java para web.</p>
+                                    <p class="row">
+                                        <a class="more-link col-6" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Código</a>
+                                        <a class="more-link col-6" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>Demonstração</a>
+                                    </p>
+                                </div>
+                                <!--//desc-->
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
+
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Outros Projetos</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="https://sites.google.com/view/app-inventor2231436/p%C3%A1gina-inicial" target="_blank">Aplicativo Sistemas da depressão</a> <span class="badge badge-theme">Android</span></h3>
+                                <p class="summary">Um aplicativo que reune, em um só lugar, os sistemas mais utilizados pelos alunos do campus IFTO-Palmas no dia-a-dia.</p>
+                                <div class="row">
+                                    <div class="col-6 text-center">
+                                        <a class="btn btn-cta-primary btn-download" href="https://sites.google.com/view/app-inventor2231436/p%C3%A1gina-inicial" target="_blank"><i class="fas fa-download"></i>Baixe o aplicativo</i></a>
+                                    </div>
+                                    <div class="col-6 text-center">
+                                        <a class="btn btn-cta-secondary" href="https://jeferson0993.github.io/semNomePorEnquanto/" target="_blank"><i class="fas fa-globe"></i>Versão web</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--//item-->
+
+
+
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Cursos</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">web Developer - <span class="place"><a href="#">40 Hrs</a></span> <span class="year">(20XY - Presencial</span></h3>
+                                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis
+                                    faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                            </div>
+
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
+                <section class="github section">
+                    <div class="section-inner">
+                        <h2 class="heading">Meu GitHub</h2>
+                        <p>Este é meu grafico de calendário de contribuições no GitHub:</p>
+                        <div id="github-graph" class="github-graph"></div>
+                        <!--//github-graph-->
+
+                        <p>Este é meu histórico de contribuições no GitHub: </p>
+                        <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->
+                        <div id="ghfeed" class="ghfeed"></div>
+                        <!--//ghfeed-->
+
+                    </div>
+                    <!--//secton-inner-->
+                </section>
+                <!--//section-->
+            </div>
+            <!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading ">Informações Básicas</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Localização:</span>Palmas, TO - Brasil</li>
+                                <li><i class="fas fa-envelope"></i><a href="#">jeferson0993@gmail.com</a></li>
+                                <li><i class="fas fa-link"></i><a href="#">www.Jeferson.ml</a></li>
+                            </ul>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//aside-->
+
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                Experiências com bootstrap, ionic, typescript, angular...</p>
+
+                            <div class="skillset">
+
+                                <div class="item">
+                                    <h3 class="level-title">Java<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="Java estudado durante o curso como principal linguagem de programação"><i class="fas fa-info-circle"></i>Info</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="68%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Javascript &amp; jQuery</h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="34%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS3, &amp; LESS</h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="27%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Python &amp; PHP</h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="51%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+                            </div>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
+
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Educação</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Sistemas para internet</h3>
+                                <h4 class="university">Instituto Federal do Tocantins <span class="year">(Atualmente)</span></h4>
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
+
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Linguas</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>Inglês:</strong></span>
+                                    <span class="level">Nivel auto-suficiente <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                                </li>
+                                <!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Chinês:</strong></span>
+                                    <span class="level">Sápôrra é díficil bagarái <br class="visible-sm visible-xs"/> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
+                                </li>
+                                <!--//item-->
+                            </ul>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
+
+
+                <aside class="list conferences aside section">
+                    <div class="section-inner">
+                        <h2 class="heading"></h2>
+                        <div class="content">
+
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
+            </div>
+            <!--//secondary-->
+        </div>
+        <!--//row-->
     </div>
-  </header>
+    <!--//masonry-->
 
-  <main>
-    <section id="sobre">
-      <section>
-        <h2>Sobre</h2>
-        <figure>
-          <img src="imagens/autor.jpg" alt="autor" width="305">
-          <figcaption>Jeferson Ferreira - Estudante universitário</figcaption>
-        </figure>
-        <article>
-          <a href="#">
-            <figure>
-              <img src="http://pluspng.com/img-png/github-free-icon-512.png" width="10%">
-              <figcaption>github</figcaption>
-            </figure>
-          </a>
-          <a href="#">
-            <figure>
-              <img src="http://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png" width="10%">
-              <figcaption>codepen</figcaption>
-            </figure>
-          </a>
-          <a href="#">
-            <figure>
-              <img src="https://image.flaticon.com/icons/png/512/69/69406.png" width="10%">
-              <figcaption>linkedin</figcaption>
-            </figure>
-          </a>
-        </article>
-      </section>
-    </section>
-    <section id="projetos">
-      <h2>Projetos - Clique nas imagems para ver a demonstração:</h2>
-      <div>
-        <article>
-          <h3>Single Page</h3>
-          <a href="https://jeferson0993.github.io/Projeto-Single-page-com-HTML5-e-CSS3/">
-            <picture>
-              <img src="imagens/ProjetoDeEstudo1.png">
-              <figcaption>com html5 e css3</figcaption>
-            </picture>
-          </a>
-          <p>
-            <a href="https://github.com/jeferson0993/Projeto-Single-page-com-HTML5-e-CSS3">codigo</a>
-          </p>
-        </article>
-        <article>
-          <h3>Calculadora básica</h3>
-          <a href="https://jeferson0993.github.io/Calculadora/">
-            <picture>
-              <img src="imagens/Calculadora.png">
-              <figcaption>com javascript</figcaption>
-            </picture>
-          </a>
-          <p>
-            <a href="https://github.com/jeferson0993/Calculadora">codigo</a>
-          </p>
-        </article>
-      </div>
-      <div>
-        <article>
-          <h3>TO DO LIST</h3>
-          <p>Lista de tarefas</p>
-          <a href="https://codepen.io/jeferson0993/full/gZvmeb">
-            <picture>
-              <img src="imagens/TodoList.png">
-              <figcaption>HTML5, CSS3 e JAVASCRIPT</figcaption>
-            </picture>
-          </a>
-          <p>
-            <a href="https://github.com/jeferson0993/todoList">codigo</a>
-          </p>
-        </article>
-        <article>
-          <h3>Cadastro e Login em PHP</h3>
-          <a href="https://jeferson0993.000webhostapp.com/loginphpmysql/">
-            <picture>
-              <img src="imagens/prototipoLoginPhpMysql.png">
-              <figcaption>Projeto cadastro e login com PHP e MYSQL</figcaption>
-            </picture>
-          </a>
-          <p>
-            <a href="https://github.com/jeferson0993/sistemaCadastroLoginPHP-MySQL">codigo</a>
-          </p>
-        </article>
-      </div>
-      <div>
-        <article>
-          <h3>Sistema completo em PHP</h3>
-          <a href="#">
-            <picture>
-              <img src="imagens/ProjetoDeEstudo2.png">
-              <figcaption>Sistema totalmente funcional com as técnologias básicas de implementação</figcaption>
-            </picture>
-          </a>
-          <p>
-            <a href="https://github.com/jeferson0993/SISTEMA-COMPLETO-EM-PHP">codigo</a>
-          </p>
-        </article>
-        <article>
-          <h3>Sistema de cadastro de consultas em JAVA</h3>
-          <a href="https://sistema-consulta-hospital.herokuapp.com/">
-            <picture>
-              <img src="imagens/SistemaHospital.png">
-              <figcaption>APLICAÇÃO JAVA WEB DESENVOLVIDA NA ARQUITETURA MVC</figcaption>
-            </picture>
-          </a>
-          <p>
-            <a href="https://github.com/jeferson0993/Sistema-cadastro-consulta-hospital">codigo</a>
-          </p>
-        </article>
-      </div>
-    </section>
-    <section id="contatos">
-      <h2>Contatos</h2>
-    </section>
-  </main>
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container text-center">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out our commercial license options via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Desenvolvido com por <a href="https://github.com/jeferson0993" target="_blank">Jeferson</a> Ferreira</small>
+        </div>
+        <!--//container-->
+    </footer>
+    <!--//footer-->
 
-  <footer id="footer">
-    <p>JEFERSON FERREIRA</p>
-    <p>
-      <a href="https://github.com/jeferson0993"> GIT HUB </a> - | -
-      <a href="https://www.linkedin.com/in/jeferson-ferreira-4a036b143"> LINKEDIN </a> - | -
-      <a href="https://codepen.io/jeferson0993"> CODEPEN </a>
-    </p>
-    <p>Portifólio Web app - Jeferson &copy; 2019</p>
-  </footer>
-
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src="js/index.js"></script>
 
 </html>
