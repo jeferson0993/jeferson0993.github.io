@@ -5,6 +5,9 @@ Meu portifólio
 
 ### [SITE EM CONSTRUÇÃO NO GITHUB PAGES:](http://jeferson0993.github.io)
 
+### [SITE EM CONSTRUÇÃO NA MINHA CASA:](http://jeferson.myddns.me/portifolio)
+
+
 ### [SITE OFICIAL:](http://www.jeferson.ml)
 
 ---
