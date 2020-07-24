@@ -5,11 +5,6 @@ Meu portifólio
 
 ### [SITE EM CONSTRUÇÃO NO GITHUB PAGES:](http://jeferson0993.github.io)
 
-### [SITE EM CONSTRUÇÃO NA MINHA CASA:](http://jeferson.myddns.me/portifolio)
-
-
-### [SITE OFICIAL:](http://www.jeferson.ml)
-
 ---
 
 ### Author - Autor
@@ -19,8 +14,7 @@ Meu portifólio
 * [Github](https://github.com/jeferson0993)
 * [Codepen](https://codepen.io/jeferson0993)
 * [linkedin](https://www.linkedin.com/in/jeferson-ferreira-4a036b143)
-* [Portifolio](http://www.jeferson.ml)
-* jeferson@ferreirasilva.ml
+* [Portifolio](https://jeferson0993.000webhostapp.com/)
 * jeferson0993@gmail.com
 
 ### License - licença
@@ -36,7 +30,3 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.m
 * JAVASCRIPT
 
 ---
-
-### prototyping  - prototipagem:
-
-![image](https://user-images.githubusercontent.com/29678099/54076593-53c84800-428c-11e9-9215-59d1ee72d148.png)
