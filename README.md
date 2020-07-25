@@ -1,9 +1,7 @@
 # Meu Site Pessoal - Portifólio
 ## A simple static web page - Um simples site estático para mostrar meus projetos
 
-Meu portifólio - www.jeferson.gq
-
-### [DEMO](http://www.jeferson.gq/)
+### [Meu portifólio](http://www.jeferson.tk/)
 
 ---
 
@@ -14,7 +12,7 @@ Meu portifólio - www.jeferson.gq
 * [Github](https://github.com/jeferson0993)
 * [Codepen](https://codepen.io/jeferson0993)
 * [linkedin](https://www.linkedin.com/in/jeferson-ferreira-4a036b143)
-* [Portifolio](https://www.jeferson.gq/)
+* [Portifolio](https://www.jeferson.tk/)
 * jeferson0993@gmail.com
 
 ### License - licença
