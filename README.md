@@ -19,7 +19,7 @@
     <a href="https://www.jeferson.tk/"><strong>Live demo</strong></a>
     <br />
     <br />
-    <a href="https://github.com/jeferson0993/crud-vuejs-firebase/issues">Report Bug</a>
+    <a href="https://github.com/jeferson0993/jeferson0993.github.io/issues">Report Bug</a>
     ·
     <a href="http://jeferson.tk/">Some Others Projects</a>
   </p>
@@ -55,3 +55,19 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 * JAVASCRIPT
 
 ---
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/jeferson0993/jeferson0993.github.io.svg?style=flat-square
+[contributors-url]: https://github.com/jeferson0993/jeferson0993.github.io/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jeferson0993/jeferson0993.github.io.svg?style=flat-square
+[forks-url]: https://github.com/jeferson0993/jeferson0993.github.io/network/members
+[stars-shield]: https://img.shields.io/github/stars/jeferson0993/jeferson0993.github.io.svg?style=flat-square
+[stars-url]: https://github.com/jeferson0993/jeferson0993.github.io/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jeferson0993/jeferson0993.github.io.svg?style=flat-square
+[issues-url]: https://github.com/jeferson0993/jeferson0993.github.io/issues
+[license-shield]: https://img.shields.io/github/license/jeferson0993/jeferson0993.github.io.svg?style=flat-square
+[license-url]: https://github.com/jeferson0993/jeferson0993.github.io/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/jeferson-ferreira-4a036b143/
